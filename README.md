@@ -24,15 +24,15 @@ pip install -r requirements.txt
 
 ```python
 # Train federated model
-python scripts/advanced_train_model.py --client_id client_1 --target_accuracy 0.95
+python advanced_train_model.py --client_id client_1 --target_accuracy 0.95
 ```
 
 ## Project Structure
 
 ```
 project/
-├── scripts/
 │   └── advanced_train_model.py    # Main federated learning model
+|--- advanced_preprocesses.py
 ├── requirements.txt                # Python dependencies
 ├── .gitignore                     # Git ignore patterns
 └── README.md                      # Project documentation
