@@ -1,0 +1,10 @@
+models/
+data/
+plots/
+clients/
+catboost_info/
+__pycache__/
+*.joblib
+*.pkl
+*.csv
+.venv/

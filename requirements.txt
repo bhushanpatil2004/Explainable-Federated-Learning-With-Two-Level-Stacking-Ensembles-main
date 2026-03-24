@@ -1,0 +1,34 @@
+# Core Machine Learning Libraries
+numpy>=1.21.0
+pandas>=1.3.0
+scikit-learn>=1.0.0
+
+# Advanced ML Models
+lightgbm>=3.3.0
+xgboost>=1.5.0
+catboost>=1.0.0
+
+# Imbalanced Learning
+imbalanced-learn>=0.8.0
+
+# Hyperparameter Optimization
+optuna>=2.10.0
+
+# Explainable AI
+shap>=0.40.0
+
+# Data Visualization
+matplotlib>=3.5.0
+seaborn>=0.11.0
+
+# Progress Tracking
+tqdm>=4.62.0
+
+# Job Serialization
+joblib>=1.1.0
+
+# System Monitoring
+psutil>=5.8.0
+
+# Optional: For enhanced performance
+scipy>=1.7.0
